@@ -1,0 +1,177 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- hide status bar -->
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="TableText1" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">@dimen/TableScoreNameSize</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/TableScoreTextSize</item>
+        <item name="android:paddingTop">@dimen/TableScoreTextPadingSmall</item>
+        <item name="android:paddingBottom">@dimen/TableScoreTextPadingSmall</item>
+        <item name="android:paddingLeft">@dimen/TableScoreTextPadingMedium</item>
+        <item name="android:paddingRight">@dimen/TableScoreTextPadingMedium</item>
+        <item name="android:gravity">right</item>
+    </style>
+
+    <style name="TableText2" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">@dimen/TableScoreOtherTextSizes</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/TableScoreTextSizeSmall</item>
+        <item name="android:paddingTop">@dimen/TableScoreTextPadingSmall</item>
+        <item name="android:paddingBottom">@dimen/TableScoreTextPadingSmall</item>
+        <item name="android:paddingLeft">@dimen/TableScoreTextPadingMedium</item>
+        <item name="android:paddingRight">@dimen/TableScoreTextPadingMedium</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="TableText3" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">@dimen/TableScoreOtherTextSizes</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/TableScoreTextSizeSmall</item>
+        <item name="android:paddingTop">@dimen/TableScoreTextPadingSmall</item>
+        <item name="android:paddingBottom">@dimen/TableScoreTextPadingSmall</item>
+        <item name="android:paddingLeft">@dimen/TableScoreTextPadingMedium</item>
+        <item name="android:paddingRight">@dimen/TableScoreTextPadingMedium</item>
+        <item name="android:gravity">right</item>
+    </style>
+
+    <style name="TableText4" parent="@android:style/TextAppearance.Medium">
+    <item name="android:layout_width">@dimen/TableScoreColSize</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:textSize">@dimen/TableScoreTextSizeSmall</item>
+    <item name="android:paddingTop">@dimen/TableScoreTextPadingSmall</item>
+    <item name="android:paddingBottom">@dimen/TableScoreTextPadingSmall</item>
+    <item name="android:paddingLeft">@dimen/TableScoreTextPadingMedium</item>
+    <item name="android:paddingRight">@dimen/TableScoreTextPadingMedium</item>
+    <item name="android:gravity">center</item>
+    </style>
+
+    <style name="TableText5" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">@dimen/TableScoreOtherTextSizes</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/TableScoreTextSize</item>
+        <item name="android:paddingTop">@dimen/TableScoreTextPadingSmall</item>
+        <item name="android:paddingBottom">@dimen/TableScoreTextPadingSmall</item>
+        <item name="android:paddingLeft">@dimen/TableScoreTextPadingMedium</item>
+        <item name="android:paddingRight">@dimen/TableScoreTextPadingMedium</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="TableText" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">@dimen/TableScoreColSize</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/TableScoreTextSize</item>
+        <item name="android:paddingTop">@dimen/TableScoreTextPadingSmall</item>
+        <item name="android:paddingBottom">@dimen/TableScoreTextPadingSmall</item>
+        <item name="android:paddingLeft">@dimen/TableScoreTextPadingMedium</item>
+        <item name="android:paddingRight">@dimen/TableScoreTextPadingMedium</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="StatsText" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">@dimen/StatsScoreColSize</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/StatsTextSize</item>
+        <item name="android:paddingTop">@dimen/TableScoreTextPadingSmall</item>
+        <item name="android:paddingBottom">@dimen/TableScoreTextPadingSmall</item>
+        <item name="android:paddingLeft">@dimen/TableScoreTextPadingMedium</item>
+        <item name="android:paddingRight">@dimen/TableScoreTextPadingMedium</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="StatsText2" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">@dimen/StatsScoreColSize</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/StatsTextSize</item>
+        <item name="android:paddingTop">@dimen/TableScoreTextPadingSmall</item>
+        <item name="android:paddingBottom">@dimen/TableScoreTextPadingSmall</item>
+        <item name="android:paddingLeft">@dimen/TableScoreTextPadingMedium</item>
+        <item name="android:paddingRight">@dimen/TableScoreTextPadingMedium</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/statsTextTitleColor</item>
+    </style>
+
+
+    <style name="TableRowStyle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="StatsRowStyle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/StatsMarginSmall</item>
+    </style>
+
+    <style name="BallStyle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_height">@dimen/BallSize</item>
+        <item name="android:layout_width">@dimen/BallSize</item>
+        <item name="android:src">@drawable/tennisbal</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="ButtonStyles" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">@dimen/ButtonW</item>
+        <item name="android:layout_height">@dimen/ButtonH</item>
+        <item name="android:background">@drawable/mybutton</item>
+        <item name="android:layout_marginTop">@dimen/ButtonMarginSmall</item>
+        <item name="android:layout_marginLeft">@dimen/ButtonMarginSmall</item>
+        <item name="android:textSize">@dimen/ButtonTextSize</item>
+    </style>
+
+    <style name="WrapWrap" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="ServicePlayer" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="WindowStyle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">@dimen/wintopbottommargin</item>
+        <item name="android:layout_marginBottom">@dimen/wintopbottommargin</item>
+        <item name="android:layout_marginLeft">@dimen/winleftrightmargin</item>
+        <item name="android:layout_marginRight">@dimen/winleftrightmargin</item>
+        <item name="android:background">@color/windowbackground</item>
+        <item name="android:gravity">center|center_horizontal</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="WindowStyle2" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/windowbackground2</item>
+    </style>
+
+    <style name="WindowStyle3" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/windowtextsize</item>
+        <item name="android:layout_marginRight">@dimen/wininsidemedium</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/windowradiopressed</item>
+    </style>
+
+    <style name="LineStyle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">@dimen/LineWidth</item>
+        <item name="android:layout_height">@dimen/LineSpace</item>
+        <item name="android:layout_marginTop">@dimen/LineMargins</item>
+        <item name="android:layout_marginBottom">@dimen/LineMargins</item>
+        <item name="android:background">@color/colorLine</item>
+    </style>
+
+</resources>

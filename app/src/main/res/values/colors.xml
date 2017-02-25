@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="dust">#e88d23</color>
+    <color name="grass">#2da016</color>
+    <color name="plastic">#0353b6</color>
+
+    <color name="background_color">#a2999999</color>
+    <color name="border_color">#292929</color>
+
+    <color name="button_color">#29ace9</color>
+
+    <color name="windowbackground">#f197a8ff</color>
+    <color name="windowbackground2">#edb9d7ff</color>
+    <color name="windowtextbox">#f5b9cdff</color>
+    <color name="windowradiopressed">#003e5e</color>
+
+    <color name="statsTextTitleColor">#f4f3f9</color>
+    <color name="statsBackCollor">#cae8f7</color>
+    <color name="statsTableColorTitle">#c7000000</color>
+    <color name="statsTableColor1">#6974cffa</color>
+    <color name="statsTableColor2">#79c9fd3b</color>
+
+    <color name="colorLine">#002c7c</color>
+
+
+
+
+
+</resources>

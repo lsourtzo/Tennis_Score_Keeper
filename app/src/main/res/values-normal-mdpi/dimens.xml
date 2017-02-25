@@ -1,0 +1,61 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Score Table dimens -->
+    <dimen name="TableScoreTextSize">12sp</dimen>
+    <dimen name="TableScoreTextSizeSmall">8sp</dimen>
+    <dimen name="TableScoreTextMarginSmall">2dp</dimen>
+    <dimen name="TableScoreTextMarginMedium">3dp</dimen>
+    <dimen name="TableScoreTextMarginLarge">6dp</dimen>
+    <dimen name="TableScoreTextPadingSmall">1dp</dimen>
+    <dimen name="TableScoreTextPadingMedium">3dp</dimen>
+    <dimen name="TableScoreNameSize">100dp</dimen>
+    <dimen name="TableScoreOtherTextSizes">45dp</dimen>
+    <dimen name="TableScoreColSize">25dp</dimen>
+
+    <dimen name="WinnerText">30sp</dimen>
+
+
+    <!-- Ball icon dimens -->
+    <dimen name="BallSize">20dp</dimen>
+
+    <!-- Buttons dimens -->
+    <dimen name="ButtonTextSize">12sp</dimen>
+    <dimen name="ButtonH">25dp</dimen>
+    <dimen name="ButtonW">55dp</dimen>
+    <dimen name="ButtonMarginSmall">5dp</dimen>
+    <dimen name="ButtonMarginLarge">10dp</dimen>
+    <dimen name="ButtonMarginMedium">5dp</dimen>
+
+    <!-- Popup Window dimens -->
+    <dimen name="wintopbottommargin">20dp</dimen>
+    <dimen name="winleftrightmargin">13dp</dimen>
+    <dimen name="wininsidesmall">7dp</dimen>
+    <dimen name="wininsidemedium">13dp</dimen>
+    <dimen name="wininsidelarge">20dp</dimen>
+    <dimen name="windowtextsize">14sp</dimen>
+    <dimen name="windowtextboxsize">200dp</dimen>
+    <dimen name="windowtextboxsize2">20dp</dimen>
+
+    <!-- Stats Window dimens -->
+    <dimen name="StatsMarginSmall">5dp</dimen>
+    <dimen name="StatsMarginVSmall">3dp</dimen>
+    <dimen name="StatsMarginLarge">30dp</dimen>
+    <dimen name="StatsMarginVLarge">15dp</dimen>
+    <dimen name="StatsTextSize">16sp</dimen>
+    <dimen name="StatsTextSizeTitle">22sp</dimen>
+    <dimen name="StatsTitleSize">25sp</dimen>
+    <dimen name="StatsScoreColSize">0dp</dimen>
+
+    <dimen name="LineSpace">1dp</dimen>
+    <dimen name="LineWidth">400dp</dimen>
+    <dimen name="LineMargins">5dp</dimen>
+
+    //Player Icon Set Place
+    <dimen name="UpCourtPadding">22dp</dimen>
+    <dimen name="DownCourtPadding">38dp</dimen>
+
+
+</resources>

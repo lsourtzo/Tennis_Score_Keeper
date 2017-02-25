@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">TennisScoreKeeper</string>
+    <string name="court_type">Court type</string>
+    <string name="grass">Grass</string>
+    <string name="clay">Clay</string>
+    <string name="hard_courts">Hard Courts</string>
+    <string name="number_of_winning_sets">Sets to Win :</string>
+    <string name="number_of_winning_games">Winning Games/Set :</string>
+    <string name="player_1">Player 1:</string>
+    <string name="player_2">Player 2:</string>
+    <string name="duece">Duece</string>
+    <string name="point">Point</string>
+    <string name="winner">Winner</string>
+    <string name="ace">Ace</string>
+    <string name="fault">Fault</string>
+    <string name="undo">Undo</string>
+    <string name="stats">Stats</string>
+    <string name="restart">Restart</string>
+    <string name="PlayerName1">Player 1</string>
+    <string name="PlayerName2">Player 2</string>
+    <string name="cancel">Cancel</string>
+    <string name="mail">Mail</string>
+    <string name="close">Close</string>
+    <string name="aces">Aces</string>
+    <string name="sets">Sets</string>
+    <string name="double_faults">Double Faults</string>
+    <string name="breaks">Break Points</string>
+    <string name="Games">Games</string>
+    <string name="maxCPoints">Max consecutive points</string>
+    <string name="points_for_winning_game"> Winning Points/Game :</string>
+    <string name="practice_mode">Practice Mode :</string>
+    <string name="net_points_for_game_over_2">Net Points for Game over 2 (No ADV)</string>
+    <string name="tiebrake">TieBrake</string>
+</resources>

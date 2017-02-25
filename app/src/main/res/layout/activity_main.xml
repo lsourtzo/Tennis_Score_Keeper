@@ -1,0 +1,1122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lsourtzo.app.tennisscorekeeper.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/screen" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--Score Table Area     -->
+
+        <LinearLayout
+            android:id="@+id/sky"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TableLayout style="@style/WrapWrap">
+
+                <TableRow style="@style/TableRowStyle">
+
+                    <TextView />
+
+                    <TextView />
+
+                    <TextView
+                        android:id="@+id/gamenumber"
+                        style="@style/TableText4"
+                        android:layout_marginLeft="@dimen/TableScoreTextMarginLarge"
+                        android:layout_marginRight="@dimen/TableScoreTextMarginLarge"
+                        android:text="Game 0" />
+
+
+                    <TextView
+                        style="@style/TableText4"
+                        android:text="1" />
+
+                    <TextView
+                        style="@style/TableText4"
+                        android:text="2" />
+
+                    <TextView
+                        style="@style/TableText4"
+                        android:text="3" />
+
+                    <TextView
+                        style="@style/TableText4"
+                        android:text="4" />
+
+                    <TextView
+                        style="@style/TableText4"
+                        android:text="5" />
+
+                    <TextView
+                        style="@style/TableText4"
+                        android:layout_marginLeft="@dimen/TableScoreTextMarginLarge"
+                        android:layout_marginRight="@dimen/TableScoreTextMarginMedium"
+                        android:text="Set" />
+
+                </TableRow>
+
+                <TableRow style="@style/TableRowStyle">
+
+                    <TextView
+                        android:id="@+id/name11"
+                        style="@style/TableText1"
+                        android:text="Name 1 :" />
+
+                    <ImageView
+                        android:id="@+id/ball1"
+                        style="@style/BallStyle"
+                        android:visibility="invisible" />
+
+
+                        <TextView
+                            android:id="@+id/score10"
+                            style="@style/TableText5"
+                            android:layout_marginLeft="@dimen/TableScoreTextMarginLarge"
+                            android:layout_marginRight="@dimen/TableScoreTextMarginLarge"
+                            android:background="@drawable/my_border"
+                            android:text="0" />
+
+
+
+                    <TextView
+                        android:id="@+id/score11"
+                        style="@style/TableText"
+                        android:background="@drawable/my_border"
+                        android:text="0" />
+
+                    <TextView
+                        android:id="@+id/score12"
+                        style="@style/TableText"
+                        android:background="@drawable/my_border"
+                        android:text="-" />
+
+                    <TextView
+                        android:id="@+id/score13"
+                        style="@style/TableText"
+                        android:background="@drawable/my_border"
+                        android:text="-" />
+
+                    <TextView
+                        android:id="@+id/score14"
+                        style="@style/TableText"
+                        android:background="@drawable/my_border"
+                        android:text="-" />
+
+                    <TextView
+                        android:id="@+id/score15"
+                        style="@style/TableText"
+                        android:background="@drawable/my_border"
+                        android:text="-" />
+
+                    <TextView
+                        android:id="@+id/score16"
+                        style="@style/TableText5"
+                        android:layout_marginLeft="@dimen/TableScoreTextMarginLarge"
+                        android:layout_marginRight="@dimen/TableScoreTextMarginMedium"
+                        android:background="@drawable/my_border"
+                        android:text="0" />
+
+
+                </TableRow>
+
+                <TableRow style="@style/TableRowStyle">
+
+                    <TextView
+                        style="@style/TableText1"
+                        android:text="vs" />
+
+                    <TextView
+                        android:id="@+id/tiebrake_Duece"
+                        style="@style/TableText3"
+                        android:visibility="visible" />
+
+                    <TextView />
+
+                    <TextView />
+
+                    <TextView />
+
+                    <TextView />
+
+                    <TextView />
+
+                    <TextView />
+
+                    <TextView />
+                </TableRow>
+
+                <TableRow style="@style/TableRowStyle">
+
+                    <TextView
+                        android:id="@+id/name21"
+                        style="@style/TableText1"
+                        android:text="Name 2 :" />
+
+                    <ImageView
+                        android:id="@+id/ball2"
+                        style="@style/BallStyle"
+                        android:visibility="invisible" />
+
+                    <TextView
+                        android:id="@+id/score20"
+                        style="@style/TableText5"
+                        android:layout_marginLeft="@dimen/TableScoreTextMarginLarge"
+                        android:layout_marginRight="@dimen/TableScoreTextMarginLarge"
+                        android:background="@drawable/my_border"
+                        android:text="0" />
+
+                    <TextView
+                        android:id="@+id/score21"
+                        style="@style/TableText"
+                        android:background="@drawable/my_border"
+                        android:text="0" />
+
+                    <TextView
+                        android:id="@+id/score22"
+                        style="@style/TableText"
+                        android:background="@drawable/my_border"
+                        android:text="-" />
+
+                    <TextView
+                        android:id="@+id/score23"
+                        style="@style/TableText"
+                        android:background="@drawable/my_border"
+                        android:text="-" />
+
+                    <TextView
+                        android:id="@+id/score24"
+                        style="@style/TableText"
+                        android:background="@drawable/my_border"
+                        android:text="-" />
+
+                    <TextView
+                        android:id="@+id/score25"
+                        style="@style/TableText"
+                        android:background="@drawable/my_border"
+                        android:text="-" />
+
+                    <TextView
+                        android:id="@+id/score26"
+                        style="@style/TableText5"
+                        android:layout_marginLeft="@dimen/TableScoreTextMarginLarge"
+                        android:layout_marginRight="@dimen/TableScoreTextMarginMedium"
+                        android:background="@drawable/my_border"
+                        android:text="0" />
+
+
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+        <!--Wall space    -->
+        <LinearLayout
+            android:id="@+id/wall"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.7"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/court"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.4">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <!--Upper Court Area     -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.8"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        style="@style/ServicePlayer"
+                        android:layout_weight="1.2"
+                        android:paddingRight="@dimen/UpCourtPadding"
+                        android:gravity="right|top">
+
+                        <ImageView
+                            android:id="@+id/ser_p1_11"
+                            style="@style/WrapWrap"
+                            android:src="@drawable/leftservice_p1"
+                            android:visibility="visible" />
+
+                        <ImageView
+                            android:id="@+id/ser_p2_11"
+                            style="@style/WrapWrap"
+                            android:src="@drawable/leftservice_p2"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/wait_p1_11"
+                            style="@style/WrapWrap"
+                            android:src="@drawable/leftwaiting_p1"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/wait_p2_11"
+                            style="@style/WrapWrap"
+                            android:src="@drawable/leftwaiting_p2"
+                            android:visibility="gone" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/ServicePlayer"
+                        android:layout_weight="2">
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/ServicePlayer"
+                        android:layout_weight="1.2"
+                        android:gravity="left|top"
+                        android:paddingLeft="@dimen/UpCourtPadding">
+
+                        <ImageView
+                            android:id="@+id/ser_p1_12"
+                            style="@style/WrapWrap"
+                            android:src="@drawable/rightservice_p1"
+                            android:visibility="visible" />
+
+                        <ImageView
+                            android:id="@+id/ser_p2_12"
+                            style="@style/WrapWrap"
+                            android:src="@drawable/rightservice_p2"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/wait_p1_12"
+                            style="@style/WrapWrap"
+                            android:src="@drawable/rightwaiting_p1"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/wait_p2_12"
+                            style="@style/WrapWrap"
+                            android:src="@drawable/rightwaiting_p2"
+                            android:visibility="gone" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!--Downer Court Area -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        style="@style/ServicePlayer"
+                        android:layout_weight="0.9"
+                        android:gravity="right|bottom"
+                        android:paddingRight="@dimen/DownCourtPadding">
+
+                        <ImageView
+                            android:id="@+id/ser_p1_21"
+                            style="@style/WrapWrap"
+                            android:src="@drawable/leftservice_p1"
+                            android:visibility="visible" />
+
+                        <ImageView
+                            android:id="@+id/ser_p2_21"
+                            style="@style/WrapWrap"
+                            android:src="@drawable/leftservice_p2"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/wait_p1_21"
+                            style="@style/WrapWrap"
+                            android:src="@drawable/leftwaiting_p1"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/wait_p2_21"
+                            style="@style/WrapWrap"
+                            android:src="@drawable/leftwaiting_p2"
+                            android:visibility="gone" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/ServicePlayer"
+                        android:layout_weight="2">
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/ServicePlayer"
+                        android:layout_weight="0.9"
+                        android:gravity="left|bottom"
+                        android:paddingLeft="@dimen/DownCourtPadding">
+
+                        <ImageView
+                            android:id="@+id/ser_p1_22"
+                            style="@style/WrapWrap"
+                            android:src="@drawable/rightservice_p1"
+                            android:visibility="visible" />
+
+                        <ImageView
+                            android:id="@+id/ser_p2_22"
+                            style="@style/WrapWrap"
+                            android:src="@drawable/rightservice_p2"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/wait_p1_22"
+                            style="@style/WrapWrap"
+                            android:src="@drawable/rightwaiting_p1"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/wait_p2_22"
+                            style="@style/WrapWrap"
+                            android:src="@drawable/rightwaiting_p2"
+                            android:visibility="gone" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <!--Buttons Area     -->
+
+        <LinearLayout
+            android:id="@+id/buttonsArea"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.1"
+            android:gravity="center|center_vertical"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                style="@style/WrapWrap"
+                android:gravity="end|center_vertical"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    style="@style/WrapWrap"
+                    android:gravity="end"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/name12"
+                        style="@style/WrapWrap"
+                        android:text="Name 1:"
+                        android:textSize="@dimen/ButtonTextSize" />
+
+                    <Button
+                        android:id="@+id/point1"
+                        style="@style/ButtonStyles"
+                        android:onClick="buttonOnClick"
+                        android:text="@string/point" />
+
+                    <Button
+                        android:id="@+id/winner1"
+                        style="@style/ButtonStyles"
+                        android:onClick="buttonOnClick"
+                        android:text="@string/winner" />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/WrapWrap"
+                    android:gravity="left"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/name22"
+                        style="@style/WrapWrap"
+                        android:text="Name 2:"
+                        android:textSize="@dimen/ButtonTextSize" />
+
+                    <Button
+                        android:id="@+id/point2"
+                        style="@style/ButtonStyles"
+                        android:onClick="buttonOnClick"
+                        android:text="@string/point" />
+
+                    <Button
+                        android:id="@+id/winner2"
+                        style="@style/ButtonStyles"
+                        android:onClick="buttonOnClick"
+                        android:text="@string/winner" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                style="@style/WrapWrap"
+                android:layout_marginLeft="@dimen/ButtonMarginSmall"
+                android:gravity="left"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/ace"
+                    style="@style/ButtonStyles"
+                    android:onClick="buttonOnClick"
+                    android:text="@string/ace" />
+
+                <Button
+                    android:id="@+id/fault"
+                    style="@style/ButtonStyles"
+                    android:onClick="buttonOnClick"
+                    android:text="@string/fault" />
+
+                <Button
+                    android:id="@+id/undo"
+                    style="@style/ButtonStyles"
+                    android:enabled="false"
+                    android:onClick="buttonOnClick"
+                    android:text="@string/undo"
+                    android:visibility="visible" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/WrapWrap"
+                android:layout_marginLeft="@dimen/ButtonMarginMedium"
+                android:gravity="start|center_vertical"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/stats"
+                    style="@style/ButtonStyles"
+                    android:onClick="buttonOnClick"
+                    android:text="@string/stats" />
+
+                <Button
+                    android:id="@+id/restartb"
+                    style="@style/ButtonStyles"
+                    android:onClick="buttonOnClick"
+                    android:text="@string/restart" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!--Popup Window     -->
+
+    <LinearLayout
+        android:id="@+id/popupwindow1"
+        style="@style/WindowStyle2"
+        android:visibility="gone"></LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/popupwindow1b"
+        style="@style/WindowStyle2"
+        android:visibility="gone"></LinearLayout>
+
+    <!-- SetupScreen screen ============================================-->
+
+    <LinearLayout
+        android:id="@+id/popupwindow"
+        style="@style/WindowStyle"
+        android:background="@drawable/fsbgr"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/wininsidemedium"
+            android:layout_weight="1"
+            android:gravity="center|center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/WindowStyle3"
+                android:text="@string/player_1" />
+
+            <EditText
+                android:id="@+id/windowplayer1"
+                android:layout_width="@dimen/windowtextboxsize"
+                android:layout_height="wrap_content"
+                android:background="@color/windowtextbox"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="textCapSentences"
+                android:maxLength="20"
+                android:text="@string/PlayerName1"
+                android:textSize="@dimen/windowtextsize"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="top|center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/WindowStyle3"
+                android:text="@string/player_2" />
+
+            <EditText
+                android:id="@+id/windowplayer2"
+                android:layout_width="@dimen/windowtextboxsize"
+                android:layout_height="wrap_content"
+                android:background="@color/windowtextbox"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="textCapSentences"
+                android:maxLength="20"
+                android:text="@string/PlayerName2"
+                android:textSize="@dimen/windowtextsize"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.7"
+            android:gravity="top|center_horizontal"
+            android:orientation="horizontal">
+
+
+            <RadioGroup
+                android:id="@+id/radiogroupgames"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    style="@style/WindowStyle3"
+                    android:text="@string/number_of_winning_games" />
+
+                <RadioButton
+                    android:id="@+id/radiogroupgames3"
+                    style="@style/WindowStyle3"
+                    android:buttonTint="@color/windowradiopressed"
+                    android:text=" 3" />
+
+                <RadioButton
+                    android:id="@+id/radiogroupgames4"
+                    style="@style/WindowStyle3"
+                    android:buttonTint="@color/windowradiopressed"
+                    android:checked="true"
+                    android:text=" 4" />
+
+                <RadioButton
+                    android:id="@+id/radiogroupgames5"
+                    style="@style/WindowStyle3"
+                    android:buttonTint="@color/windowradiopressed"
+                    android:text=" 5" />
+
+                <RadioButton
+                    android:id="@+id/radiogroupgames6"
+                    style="@style/WindowStyle3"
+                    android:buttonTint="@color/windowradiopressed"
+                    android:checked="true"
+                    android:text=" 6" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.7"
+            android:gravity="top|center_horizontal"
+            android:orientation="horizontal">
+
+
+            <RadioGroup
+                android:id="@+id/radiogroupsets"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    style="@style/WindowStyle3"
+                    android:text="@string/number_of_winning_sets" />
+
+                <RadioButton
+                    android:id="@+id/radiogroupsets1"
+                    style="@style/WindowStyle3"
+                    android:buttonTint="@color/windowradiopressed"
+                    android:text=" 1" />
+
+                <RadioButton
+                    android:id="@+id/radiogroupsets2"
+                    style="@style/WindowStyle3"
+                    android:buttonTint="@color/windowradiopressed"
+                    android:text=" 2" />
+
+                <RadioButton
+                    android:id="@+id/radiogroupsets3"
+                    style="@style/WindowStyle3"
+                    android:buttonTint="@color/windowradiopressed"
+                    android:checked="true"
+                    android:text=" 3" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <ImageView style="@style/LineStyle" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.7"
+            android:gravity="top|center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/WindowStyle3"
+                android:text="@string/practice_mode" />
+
+            <CheckBox
+                android:id="@+id/practicecheckbox"
+                android:buttonTint="@color/windowradiopressed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                style="@style/WindowStyle3"
+                android:layout_marginLeft="@dimen/ButtonMarginLarge"
+                android:text="@string/points_for_winning_game" />
+
+            <EditText
+                android:id="@+id/tiebreakewinningpoints"
+                android:inputType="number"
+                android:layout_width="@dimen/windowtextboxsize2"
+                android:layout_height="wrap_content"
+                android:background="@color/windowtextbox"
+                android:imeOptions="flagNoExtractUi"
+                android:maxLength="2"
+                android:text="7"
+                android:textSize="@dimen/windowtextsize"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.7"
+            android:gravity="top|center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/WindowStyle3"
+                android:text="@string/net_points_for_game_over_2" />
+
+            <CheckBox
+                android:id="@+id/netpointsforgame"
+                android:buttonTint="@color/windowradiopressed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <ImageView style="@style/LineStyle" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.7"
+            android:gravity="top|center_horizontal"
+            android:orientation="horizontal">
+
+            <RadioGroup
+                android:id="@+id/radiogroupcourt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/WindowStyle3"
+                    android:text="@string/court_type" />
+
+                <RadioButton
+                    android:id="@+id/grashcourt"
+                    style="@style/WindowStyle3"
+                    android:buttonTint="@color/windowradiopressed"
+                    android:text="@string/grass" />
+
+                <RadioButton
+                    android:id="@+id/claycourt"
+                    style="@style/WindowStyle3"
+                    android:buttonTint="@color/windowradiopressed"
+                    android:text="@string/clay" />
+
+                <RadioButton
+                    android:id="@+id/hardcourt"
+                    style="@style/WindowStyle3"
+                    android:buttonTint="@color/windowradiopressed"
+                    android:checked="true"
+                    android:text="@string/hard_courts" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="top|center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/stats"
+                style="@style/ButtonStyles"
+                android:onClick="StartingApp"
+                android:text="OK" />
+
+            <Button
+                android:id="@+id/bcancel"
+                style="@style/ButtonStyles"
+                android:onClick="CancelRestart"
+                android:text="@string/cancel"
+                android:visibility="gone" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Winner screen ============================================-->
+    <LinearLayout
+        android:id="@+id/popupwindowFinal"
+        style="@style/WindowStyle"
+        android:background="@drawable/fsbgr"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2.5"
+            android:gravity="center_horizontal|center_vertical">
+
+            <TextView
+                android:id="@+id/WinnerNameText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal|center_vertical"
+                android:textSize="@dimen/WinnerText" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/restartb2"
+                style="@style/ButtonStyles"
+                android:onClick="buttonOnClick"
+                android:text="@string/restart" />
+
+            <Button
+                android:id="@+id/stats2"
+                style="@style/ButtonStyles"
+                android:onClick="buttonOnClick"
+                android:text="@string/stats" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Stats screen ============================================-->
+    <LinearLayout
+        android:id="@+id/popupwindowStats"
+        style="@style/WindowStyle"
+        android:background="@drawable/fsbgr"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            style="@style/WrapWrap"
+            android:layout_marginTop="@dimen/StatsMarginLarge"
+            android:gravity="center"
+            android:textSize="@dimen/StatsTextSizeTitle"
+            android:textStyle="bold"
+            android:text="Statistics"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/StatsMarginVLarge"
+            android:layout_marginRight="@dimen/StatsMarginVLarge">
+
+
+        <TableRow style="@style/StatsRowStyle"
+            android:background="@color/statsTableColorTitle">
+
+            <TextView
+                android:id="@+id/StatsName1"
+                style="@style/StatsText2"
+                android:layout_weight="1"
+                android:text="Name 1:" />
+
+
+            <TextView
+                android:id="@+id/StatsCourtType"
+                style="@style/StatsText2"
+                android:layout_weight="2" />
+
+
+            <TextView
+                android:id="@+id/StatsName2"
+                style="@style/StatsText2"
+                android:layout_weight="1"
+                android:text="Name 2:" />
+        </TableRow>
+        </TableLayout>
+
+        <ScrollView
+            android:id="@+id/statsScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="top|center_horizontal"
+            android:layout_marginLeft="@dimen/StatsMarginVLarge"
+            android:layout_marginRight="@dimen/StatsMarginVLarge"
+            android:layout_weight="4">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow style="@style/StatsRowStyle"
+                    android:background="@color/statsTableColor2">
+
+                    <TextView
+                        android:id="@+id/StatsSets1"
+                        style="@style/StatsText"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        style="@style/StatsText"
+                        android:layout_weight="2"
+                        android:text="@string/sets" />
+
+                    <TextView
+                        android:id="@+id/StatsSets2"
+                        style="@style/StatsText"
+                        android:layout_weight="1" />
+                </TableRow>
+
+                <TableRow style="@style/StatsRowStyle"
+                    android:background="@color/statsTableColor1">
+
+                    <TextView
+                        android:id="@+id/StatsTitleGame1"
+                        style="@style/StatsText"
+                        android:layout_weight="1"
+                        android:text="Game:1" />
+
+                    <TextView
+                        android:id="@+id/StatsTitleGame2"
+                        style="@style/StatsText"
+                        android:layout_weight="1"
+                        android:text="Game:2" />
+
+                    <TextView
+                        android:id="@+id/StatsTitleGame3"
+                        style="@style/StatsText"
+                        android:layout_weight="1"
+                        android:text="Game:3" />
+
+                    <TextView
+                        android:id="@+id/StatsTitleGame4"
+                        style="@style/StatsText"
+                        android:layout_weight="1"
+                        android:text="Game:4" />
+
+                    <TextView
+                        android:id="@+id/StatsTitleGame5"
+                        style="@style/StatsText"
+                        android:layout_weight="1"
+                        android:text="Game:5" />
+                </TableRow>
+
+                <TableRow style="@style/StatsRowStyle"
+                    android:background="@color/statsTableColor1">
+
+                    <TextView
+                        android:id="@+id/StatsGame1"
+                        style="@style/StatsText"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:id="@+id/StatsGame2"
+                        style="@style/StatsText"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:id="@+id/StatsGame3"
+                        style="@style/StatsText"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:id="@+id/StatsGame4"
+                        style="@style/StatsText"
+                        android:layout_weight="1"
+                        android:text="" />
+
+                    <TextView
+                        android:id="@+id/StatsGame5"
+                        style="@style/StatsText"
+                        android:layout_weight="1" />
+                </TableRow>
+
+                <TableRow style="@style/StatsRowStyle"
+                    android:background="@color/statsTableColor2">
+
+                    <TextView
+                        android:id="@+id/StatsAces1"
+                        style="@style/StatsText"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        style="@style/StatsText"
+                        android:layout_weight="2"
+                        android:text="@string/aces" />
+
+                    <TextView
+                        android:id="@+id/StatsAces2"
+                        style="@style/StatsText"
+                        android:layout_weight="1" />
+                </TableRow>
+
+                <TableRow style="@style/StatsRowStyle"
+                    android:background="@color/statsTableColor1">
+
+                    <TextView
+                        android:id="@+id/StatsDF1"
+                        style="@style/StatsText"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        style="@style/StatsText"
+                        android:layout_weight="2"
+                        android:text="@string/double_faults" />
+
+                    <TextView
+                        android:id="@+id/StatsDF2"
+                        style="@style/StatsText"
+                        android:layout_weight="1" />
+                </TableRow>
+
+                <TableRow style="@style/StatsRowStyle"
+                    android:background="@color/statsTableColor2">
+
+                    <TextView
+                        android:id="@+id/StatsWin1"
+                        style="@style/StatsText"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        style="@style/StatsText"
+                        android:layout_weight="2"
+                        android:text="Winners" />
+
+                    <TextView
+                        android:id="@+id/StatsWin2"
+                        style="@style/StatsText"
+                        android:layout_weight="1" />
+                </TableRow>
+
+                <TableRow style="@style/StatsRowStyle"
+                    android:background="@color/statsTableColor1">
+
+                    <TextView
+                        android:id="@+id/StatsBr1"
+                        style="@style/StatsText"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        style="@style/StatsText"
+                        android:layout_weight="2"
+                        android:text="@string/breaks" />
+
+                    <TextView
+                        android:id="@+id/StatsBr2"
+                        style="@style/StatsText"
+                        android:layout_weight="1" />
+                </TableRow>
+
+                <TableRow style="@style/StatsRowStyle"
+                    android:background="@color/statsTableColor2">
+
+                    <TextView
+                        android:id="@+id/StatsCp1"
+                        style="@style/StatsText"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        style="@style/StatsText"
+                        android:layout_weight="2"
+                        android:text="@string/maxCPoints" />
+
+                    <TextView
+                        android:id="@+id/StatsCp2"
+                        style="@style/StatsText"
+                        android:layout_weight="1" />
+                </TableRow>
+
+            </TableLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="@dimen/StatsMarginVSmall"
+            android:gravity="center_horizontal|top"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/mailbutton"
+                style="@style/ButtonStyles"
+                android:onClick="buttonOnClick"
+                android:text="@string/mail"
+                android:visibility="gone" />
+
+            <Button
+
+                android:id="@+id/statsclosebutton"
+                style="@style/ButtonStyles"
+                android:onClick="buttonOnClick"
+                android:text="@string/close" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
